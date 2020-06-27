@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.detalhes-cerveja {
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+.detalhes-cerveja .coluna-esquerda {
+  width: 45%;
+  position: relative;
+}
+
+.detalhes-cerveja .cerveja-foto {
+  max-width: 100%;
+}
+
+.detalhes-cerveja .coluna-direita {
+  width: 55%;
+  margin-left: 20px;
+}
+
+.detalhes-cerveja .cerveja-harmonizacao,
+.detalhes-cerveja .cerveja-cor,
+.detalhes-cerveja .cerveja-teoralcoolico,
+.detalhes-cerveja .cerveja-temperatura,
+.detalhes-cerveja .cerveja-ingredientes,
+.detalhes-cerveja .cerveja-opcoes {
+  margin-top: 25px;
+}
+
+.detalhes-cerveja .cerveja-harmonizacao span,
+.detalhes-cerveja .cerveja-cor span,
+.detalhes-cerveja .cerveja-teoralcoolico span,
+.detalhes-cerveja .cerveja-temperatura span,
+.detalhes-cerveja .cerveja-ingredientes span {
+  font-weight: bold;
+}
+
+.detalhes-cerveja .cerveja-harmonizacao p,
+.detalhes-cerveja .cerveja-cor p,
+.detalhes-cerveja .cerveja-teoralcoolico p,
+.detalhes-cerveja .cerveja-temperatura p,
+.detalhes-cerveja .cerveja-ingredientes p {
+  font-size: 14px;
+}
+
+.detalhes-cerveja .cerveja-opcoes .btn {
+  margin-right: 10px;
+}
